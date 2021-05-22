@@ -1,8 +1,11 @@
+__version__ = '0.0.1'
+
+
 class Formatter:
     def __init__(
         self,
         title: str=None,
-        desctription: str=None,
+        description: str=None,
         bulletpoints: list=None,
     ):
         """
@@ -10,11 +13,11 @@ class Formatter:
 
         Args:
             title (str, optional): [Title]. Defaults to None.
-            desctription (str, optional): [Description]. Defaults to None.
+            description (str, optional): [Description]. Defaults to None.
             bulletpoints (list, optional): [Bullet Points]. Defaults to None.
         """
         self.title = title
-        self.description = desctription
+        self.description = description
         self.bulletpoints = bulletpoints
         self.form = '{}{}{}'
     
